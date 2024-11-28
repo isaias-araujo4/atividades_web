@@ -1,0 +1,76 @@
+body{
+    background: url('/imagens/fundo1.png');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.central{
+    width: 400px;
+    background: rgba(255, 0, 0, 0.301);
+    height: 150px;
+    border-radius: 18px;
+    box-shadow: 3px 3px 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.central div{
+    width: 120px;
+    background: rgba(255, 0, 0, 0.452);
+    color: white;
+    height: 120px;
+    font-size: 80px;
+    border-radius: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central span{
+    font-size: 80px;
+}
+
+.central2{
+    width: 200px;
+    background: rgba(255, 0, 0, 0.301);
+    height: 40px;
+    border-radius: 18px;
+    box-shadow: 3px 3px 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+.central2 span{
+    font-size: 50px;
+}
+
+.central3{
+    width: 200px;
+    background: rgba(255, 0, 0, 0.301);
+    height: 50px;
+    border-radius: 18px;
+    box-shadow: 3px 3px 10px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+.central3 span{
+    font-size: 30px;
+}
+
+img{
+    height: 150px;
+}
