@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient(red,black);
+}
+
+h1{
+    color: orange;
+    font-size: 80px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+hr{
+    width: 50%;
+    height: 20px;
+    background: orange;
+}
+
+p{
+    width: 50%;
+    margin: auto;
+}
+
+img{
+    width: 300px;
+    height: 225px;
+}
+
+.caixaimagem{
+    width: fit-content;
+    margin: auto;
+}
+
+#vidmario{
+    width: 50%;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+
+}
