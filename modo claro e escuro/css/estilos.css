@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+
+img{
+    height: 50px;
+    cursor: pointer;
+}
+
+.claro{
+    background: linear-gradient(cyan, red);
+}
+
+.escuro{
+    background: linear-gradient(darkblue, black);
+}
