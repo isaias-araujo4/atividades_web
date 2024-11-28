@@ -1,0 +1,45 @@
+body {
+    background-image: url(imagens/vitoria3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.t1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.t2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#osvaldo1 {
+    width: 400px;
+    position: absolute;
+    left: 15%;
+    border-radius: 20px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#arcanjo1 {
+    width: 400px;
+    position: absolute;
+    left: 40%;
+    height: 267px;
+    border-radius: 20px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#wagner1 {
+    width: 400px;
+    position: absolute;
+    left: 65%;
+    height: 267px;
+    border-radius: 20px;
+    opacity: 0.9;
+    cursor: pointer;
+}
