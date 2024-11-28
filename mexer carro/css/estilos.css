@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/imagem/rua2.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+#carro{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background: url(/imagem/carro.png);
+    background-size: cover;
+    top: 400px;
+    left: 0px;
+
+    animation: dirigir 10s infinite;
+}
+
+@keyframes dirigir{
+    from{transform: translateX(0px);}
+    to{transform: translateX(800px);}
+}
