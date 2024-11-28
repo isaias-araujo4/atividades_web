@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    background: linear-gradient(darkblue, darkred);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central {
+    background: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.central img{
+    height: 180px;
+}
+
+.central button{
+    width: 80px;
+    background: darkred;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.central button:hover{
+    background: silver;
+    color: darkred;
+}
