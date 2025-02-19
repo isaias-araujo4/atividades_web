@@ -1,0 +1,45 @@
+body{
+   height: 100vh;
+    background: radial-gradient(var(--claret), var(--night));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+   width: 200px;
+    border-radius:50%;
+    border: 5px solid var(--slate-gray);
+}
+
+.central{
+    width: 40%;
+    background-color: var(--fairy-tale);
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 15px var(--claret);
+}
+
+hr{
+    width: 100%;
+    height: 5px;
+    background: var(--slate-gray);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2{
+    font-family: "KING";
+    font-size: 40px;
+    font-weight: 100PX;
+}
