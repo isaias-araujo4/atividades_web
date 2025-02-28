@@ -151,7 +151,7 @@ hr{
 /* Para telas menores que 600px (celulares) */
 @media (max-width: 600px) {
     .central {
-        width: 73%;
+        width: 77%;
     }
 
     .rede-social img, .logo-linguagens img, .logo-frameworks img, .logo-softwares img {
